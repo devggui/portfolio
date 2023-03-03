@@ -1,10 +1,12 @@
+import { Card } from './components/Card';
+
 import './styles/main.css';
 
 function App() {  
 
   return (
-    <div className="max-w-[1344px]">
-      <h1 className="m-0 p-0">Hello</h1>
+    <div className="flex max-w-[1344px] w-screen h-screen mx-auto justify-center items-center">
+      <Card />
     </div>
   )
 }
