@@ -1,26 +1,38 @@
 [
   {
     "id": "1",
-    "image": "http://localhost:5173/src/assets/results-summary.png", 
+    "image": "/src/assets/results-summary.png", 
     "title": "Results Summary",
     "url": "https://resultssummarycomponentmain-devggui.netlify.app"
   },
   {
     "id": "2",
-    "image": "http://localhost:5173/src/assets/qr-code.png", 
-    "title": "Results Summary",
+    "image": "/src/assets/qr-code.png", 
+    "title": "QR Code Component",
     "url": "https://qrcodecomponent-devggui.netlify.app"
   },
   {
     "id": "3",
-    "image": "http://localhost:5173/src/assets/interactive-card.png", 
+    "image": "/src/assets/interactive-card.png", 
     "title": "Interactive Card",
     "url": "https://interactivecard-devggui.netlify.app"
   },
   {
     "id": "4",
-    "image": "http://localhost:5173/src/assets/eai-lixo.png", 
+    "image": "/src/assets/eai-lixo.png", 
     "title": "Eai Lixo",
     "url": "https://eailixo-fatec.netlify.app"
+  },
+  {
+    "id": "5",
+    "image": "/src/assets/clone-github.png", 
+    "title": "GitHub - Clone",
+    "url": "https://clone-github-devggui.netlify.app"
+  },
+  {
+    "id": "6",
+    "image": "/src/assets/time-tracking.png", 
+    "title": "Time Tracking",
+    "url": "https://time-tracking-devggui.netlify.app"
   }
 ]
