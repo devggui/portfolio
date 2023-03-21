@@ -5,8 +5,7 @@ import { Skills } from "./Sections/Skills";
 
 export function Main() {
   return (
-    <div>
-      <h1 className="text-white">Main</h1>
+    <div className="flex flex-col w-full">      
       <Apresentation />
       {/* <Skills /> */}
       {/* <Projects /> */}
