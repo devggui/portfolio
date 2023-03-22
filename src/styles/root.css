@@ -1,3 +1,22 @@
 :root {
   --purple: #67159C;
+  
+  /* ### Primary */
+
+  --dark-blue-header-bg: hsl(217, 28%, 15%);
+  --dark-blue-main-bg: hsl(218, 28%, 13%);
+  --dark-blue-footer-bg: hsl(216, 53%, 9%);
+  --dark-blue-testimonials-bg: hsl(219, 30%, 18%);
+
+  --black-op: hsla(0, 0%, 61%, 0.150);
+
+  /* ### Accent */
+
+  --cyan-gradient-from: hsl(176, 68%, 64%);
+  --blue-gradient-to: hsl(198, 60%, 50%);
+  --light-red-error: hsl(0, 100%, 63%);
+}
+
+* {
+  font-family: 'Raleway', sans-serif;
 }

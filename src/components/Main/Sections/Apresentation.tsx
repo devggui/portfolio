@@ -1,19 +1,10 @@
-import { IoIosArrowForward } from 'react-icons/io';
-
 export function Apresentation() {
   return (
-    <section className="flex flex-row w-full h-96 items-center text-justify justify-center my-5">    
-        <div className="pr-14">
-          <h1 className="text-white text-5xl font-bold antialiased mb-5">Hi! I'm Guilherme Henrique,</h1>
-          <h2 className="text-[var(--purple)] text-5xl font-bold antialiased mb-5">Web developer!</h2>
-          <p className="text-gray-300 text-2xl antialiased mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, necessitatibus minus dicta molestiae nemo mollitia quaerat iusto et, tempora dolorem rem aperiam corporis aut, labore nisi praesentium architecto dolore doloribus.</p>
-          <button className="flex flex-row items-center justify-center text-center w-48 h-14 text-white text-base bg-[var(--purple)] font-bold rounded-sm">Let's connect <IoIosArrowForward size={24}/> </button>
-        </div>
-        <img 
-          src="./src/assets/eu.png" 
-          alt="" 
-          className="w-96 h-96 rounded-[50%] border-[1px] border-solid border-white" 
-        />
+    <section className="flex flex-col items-center justify-center text-center">    
+      <h1 className="text-white text-3xl font-bold mb-2 mt-7">Hi! I'm <span className="border-b-[3px] border-[var(--cyan-gradient-from)]">Guilherme Silva</span>.</h1>
+      <span className="text-white text-3xl font-bold">Web Developer!</span>
+      <p className="text-white text-base font-light mt-5 antialiased">I'm a front-end developer passionate about technology and web applications development.</p>
+      <button className="text-white font-semibold mt-5 p-2 border-b-2 border-[var(--cyan-gradient-from)] antialiased">CONTACT ME</button>
     </section>
   )
 }

@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import axios from 'axios';
 
-import { Card } from '../../Card/Card'
+import { Card } from '../Card/Card'
 
 interface Card {
   id: string;
