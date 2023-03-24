@@ -1,38 +1,56 @@
 [
   {
     "id": "1",
-    "image": "/src/assets/results-summary.png", 
+    "image": "/src/assets/results-summary.png",
+    "alt": "Um cartão com fundo representando uma parte do site mencionado",
     "title": "Results Summary",
-    "url": "https://resultssummarycomponentmain-devggui.netlify.app"
+    "url": "https://resultssummarycomponentmain-devggui.netlify.app",
+    "repository": "https://github.com/devggui/results-summary-component-main",
+    "languages": ["HTML", "CSS", "JAVASCRIPT"]
   },
   {
     "id": "2",
-    "image": "/src/assets/qr-code.png", 
+    "image": "/src/assets/qr-code.png",
+    "alt": "Um cartão com fundo representando uma parte do site mencionado",
     "title": "QR Code Component",
-    "url": "https://qrcodecomponent-devggui.netlify.app"
+    "url": "https://qrcodecomponent-devggui.netlify.app",
+    "repository": "https://github.com/devggui/qr-code-component",
+    "languages": ["HTML", "CSS", "JAVASCRIPT"]
   },
   {
     "id": "3",
-    "image": "/src/assets/interactive-card.png", 
+    "image": "/src/assets/interactive-card.png",
+    "alt": "Um cartão com fundo representando uma parte do site mencionado",
     "title": "Interactive Card",
-    "url": "https://interactivecard-devggui.netlify.app"
+    "url": "https://interactivecard-devggui.netlify.app",
+    "repository": "https://github.com/devggui/interactive-card-details-form-main",
+    "languages": ["HTML", "CSS", "JAVASCRIPT"]
   },
   {
     "id": "4",
-    "image": "/src/assets/eai-lixo.png", 
+    "image": "/src/assets/eai-lixo.png",
+    "alt": "Um cartão com fundo representando uma parte do site mencionado",
     "title": "Eai Lixo",
-    "url": "https://eailixo-fatec.netlify.app"
+    "url": "https://eailixo-fatec.netlify.app",
+    "repository": "https://github.com/devggui/projeto-fatec-tecnologia-e-ambiente",
+    "languages": ["HTML", "CSS", "JAVASCRIPT"]
   },
   {
     "id": "5",
-    "image": "/src/assets/clone-github.png", 
+    "image": "/src/assets/clone-github.png",
+    "alt": "Um cartão com fundo representando uma parte do site mencionado",
     "title": "GitHub - Clone",
-    "url": "https://clone-github-devggui.netlify.app"
+    "url": "https://clone-github-devggui.netlify.app",
+    "repository": "https://github.com/devggui/clone-gihub",
+    "languages": ["HTML", "CSS", "JAVASCRIPT"]
   },
   {
     "id": "6",
-    "image": "/src/assets/time-tracking.png", 
+    "image": "/src/assets/time-tracking.png",
+    "alt": "Um cartão com fundo representando uma parte do site mencionado",
     "title": "Time Tracking",
-    "url": "https://time-tracking-devggui.netlify.app"
+    "url": "https://time-tracking-devggui.netlify.app",
+    "repository": "https://github.com/devggui/time-trackng-dashboard-main",
+    "languages": ["HTML", "CSS", "JAVASCRIPT"]
   }
 ]

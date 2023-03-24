@@ -3,13 +3,17 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import axios from 'axios';
 
-import { Card } from '../Card/Card'
+import { Card } from '../../Card'
+import { LinkTo } from "../../LinkTo";
 
 interface Card {
   id: string;
   image: string;
+  alt: string
   title: string;
   url: string;
+  repository: string;
+  languages: string[];
 }
 
 export function Projects() {
@@ -24,24 +28,34 @@ export function Projects() {
   }, [])
   
   return (
-    <div className="flex max-w-[1344px]"> 
-      <Swiper            
+    <section className="flex flex-col items-center justify-center text-center mb-8"> 
+      <div className="flex flex-row w-full items-center text-center justify-between my-8">
+        <h1 className="text-3xl font-bold text-white">Projects</h1>
+        <LinkTo 
+          title="CONTACT ME"
+          to="#contact"
+        />
+      </div>
+      {/* <Swiper            
         slidesPerView={4}
         pagination={true}
-      >
+      > */}
         {cards.map(card => {
           return (
-            <SwiperSlide>
+            // <SwiperSlide>
               <Card 
                 key={card.id}
                 image={card.image}
+                alt={card.alt}
                 title={card.title}
                 url={card.url}
+                repository={card.repository}
+                languages={card.languages}
               />
-            </SwiperSlide>        
+            // </SwiperSlide>        
           )
         })}
-      </Swiper>
-    </div>
+      {/* </Swiper> */}
+    </section>
   )
 }
