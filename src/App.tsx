@@ -9,7 +9,7 @@ import 'swiper/css';
 function App() {  
   return (
     <div className="flex flex-col items-center text-center w-screen h-screen">
-      <Header />
+      <Header />      
       <Main />      
       <Footer />
     </div>

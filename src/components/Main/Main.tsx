@@ -1,5 +1,4 @@
 import { Apresentation } from "./Sections/Apresentation";
-import { Contact } from "./Sections/Contact";
 import { Projects } from "./Sections/Projects";
 import { Skills } from "./Sections/Skills";
 
@@ -10,10 +9,7 @@ export function Main() {
       <hr className="my-14" />
       <Skills />
       <hr className="my-14" />
-      <Projects />
-      <hr className="my-14" />
-      <Contact />
-      <hr className="my-14" />
+      <Projects />             
     </main>
   )
 }
