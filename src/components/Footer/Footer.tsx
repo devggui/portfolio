@@ -1,9 +1,11 @@
 import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { Input } from "../Input";
+import { Logo } from "../Logo";
+import { SocialMedia } from "../SocialMedia";
 
 export function Footer() {
   return (
-    <footer className="w-full bg-[var(--dark-blue-header-bg)] px-5 py-10" id="contact">
+    <footer className="w-full bg-[var(--dark-blue-header-bg)] px-8 py-10" id="contact">
       <h1 className="text-white text-3xl font-bold mt-1">Contato</h1>
       <p className="text-white text-sm font-light mt-5 antialiased">Utilize o formulário para entrar em contato comigo, tirar dúvidas, sucestões, elogios, reclamações ou até mesmo bater um papo.</p>
       
@@ -39,14 +41,9 @@ export function Footer() {
 
       <hr />   
 
-      <div className="flex flex-col w-full items-center justify-center text-center text-white text-2xl px-20 bg-[var(--dark-blue-header-bg)] mt-7">
-        <h1 className="w-full py-5 font-semibold">guilhermesilva</h1>
-        <nav className="flex flex-row w-full items-center justify-center text-center">
-          <a href="https://github.com/devggui" target="_blank" className="px-3 animation-delay-1000"><FaGithub /></a>
-          <a href="https://www.linkedin.com/in/devggui/" target="_blank" className="px-3 animation-delay-1000"><FaLinkedin /></a>
-          <a href="https://guilhermesilvazap.linka.ai" target="_blank" className="px-3 animation-delay-1000"><FaWhatsapp /></a>
-          <a href="https://www.instagram.com/guilhermeccbsilva/" target="_blank" className="px-3 animation-delay-1000"><FaInstagram /></a>
-        </nav>        
+      <div className="flex flex-col items-center justify-center text-center w-full mt-10 text-white text-2xl sm:flex-row sm:justify-between">
+        <Logo />
+        <SocialMedia />        
       </div>
       
     </footer>
