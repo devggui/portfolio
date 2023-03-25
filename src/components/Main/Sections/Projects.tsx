@@ -30,7 +30,7 @@ export function Projects() {
   return (
     <section className="flex flex-col items-center justify-center text-center mb-8"> 
       <div className="flex flex-row w-full items-center text-center justify-between my-8">
-        <h1 className="text-3xl font-bold text-white">Projetos</h1>
+        <h1 className="text-3xl font-bold text-white sm:text-5xl">Projetos</h1>
         <LinkTo 
           title="CONTATE-ME"
           to="#contact"
@@ -40,6 +40,7 @@ export function Projects() {
         slidesPerView={4}
         pagination={true}
       > */}
+      <div className="grid w-full sm:grid-cols-2 gap-x-8">
         {cards.map(card => {
           return (
             // <SwiperSlide>
@@ -55,6 +56,7 @@ export function Projects() {
             // </SwiperSlide>        
           )
         })}
+      </div>
       {/* </Swiper> */}
     </section>
   )
