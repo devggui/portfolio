@@ -4,10 +4,12 @@ import { SocialMedia } from "../SocialMedia";
 
 export function Footer() {
   return (
-    <footer className="w-full bg-[var(--dark-blue-header-bg)] px-8 py-10" id="contact">
-      <div className="sm:px-20">
-        <h1 className="text-white text-3xl font-bold mt-1 sm:text-5xl">Contato</h1>
-        <p className="text-white text-sm font-light mt-5 antialiased">Utilize o formulário para entrar em contato comigo, tirar dúvidas, sucestões, elogios, reclamações ou até mesmo bater um papo.</p>
+    <footer className="w-full bg-[var(--dark-blue-header-bg)] px-8 py-10 md:px-32 lg:px-32 xl:px-48" id="contact">
+      <div className="flex flex-col sm:px-28 lg:flex-row lg:items-start lg:text-left lg:px-0">
+        <div className="lg:pr-20 lg:pt-20">
+          <h1 className="text-white text-3xl font-bold mt-1 sm:text-5xl">Contato</h1>
+          <p className="text-white text-sm font-light mt-5 antialiased">Utilize o formulário para entrar em contato comigo, tirar dúvidas, sucestões, elogios, reclamações ou até mesmo bater um papo.</p>
+        </div>
         
         <form action="submit" className="w-full flex flex-col mb-14 mt-8">
 

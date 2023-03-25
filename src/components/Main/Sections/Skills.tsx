@@ -2,7 +2,7 @@ import { Skill } from "../../Skill";
 
 export function Skills() {
   return (
-    <section className="grid items-center justify-center text-center sm:grid-cols-2">      
+    <section className="grid items-center justify-center text-center sm:grid-cols-2 lg:grid-cols-3">      
       <Skill 
         image="../../public/icons/html.svg"
         alt="Logo do HTML."
