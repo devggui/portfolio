@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": 1,
     "image": "/src/assets/results-summary.png",
     "alt": "Um cartão com fundo representando uma parte do site mencionado",
     "title": "Results Summary",
@@ -9,7 +9,7 @@
     "languages": ["HTML", "CSS", "JAVASCRIPT"]
   },
   {
-    "id": "2",
+    "id": 2,
     "image": "/src/assets/qr-code.png",
     "alt": "Um cartão com fundo representando uma parte do site mencionado",
     "title": "QR Code Component",
@@ -18,7 +18,7 @@
     "languages": ["HTML", "CSS", "JAVASCRIPT"]
   },
   {
-    "id": "3",
+    "id": 3,
     "image": "/src/assets/interactive-card.png",
     "alt": "Um cartão com fundo representando uma parte do site mencionado",
     "title": "Interactive Card",
@@ -27,7 +27,7 @@
     "languages": ["HTML", "CSS", "JAVASCRIPT"]
   },
   {
-    "id": "4",
+    "id": 4,
     "image": "/src/assets/eai-lixo.png",
     "alt": "Um cartão com fundo representando uma parte do site mencionado",
     "title": "Eai Lixo",
@@ -36,7 +36,7 @@
     "languages": ["HTML", "CSS", "JAVASCRIPT"]
   },
   {
-    "id": "5",
+    "id": 5,
     "image": "/src/assets/clone-github.png",
     "alt": "Um cartão com fundo representando uma parte do site mencionado",
     "title": "GitHub - Clone",
@@ -45,7 +45,7 @@
     "languages": ["HTML", "CSS", "JAVASCRIPT"]
   },
   {
-    "id": "6",
+    "id": 6,
     "image": "/src/assets/time-tracking.png",
     "alt": "Um cartão com fundo representando uma parte do site mencionado",
     "title": "Time Tracking",

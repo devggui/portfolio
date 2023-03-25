@@ -11,33 +11,31 @@ interface CardProps {
 
 export function Card(props: CardProps) {
   return (
-    <div>
-      {/* <div className="w-64 h-80 m-2 bg-[#333] rounded-xl outline outline-1 outline-white/50 -outline-offset-8 shadow-card relative overflow-hidden">
-        <img src={props.image} alt="" className="absolute inset-0 w-full h-full object-cover opacity-60 transition-transform duration-[750ms] hover:scale-[1.15]" />
-        <h3 className="absolute left-6 bottom-6 text-xl text-white font-bold">{props.title}</h3>
-      </div>       */}
+    <a href={props.image} className="w-full" >
+      <div className="w-full h-80 bg-[#333] outline outline-1 outline-white/50 -outline-offset-8 shadow-card relative overflow-hidden">
+        <img src={props.image} alt={props.alt} className="absolute inset-0 w-full h-full object-cover opacity-60 transition-transform duration-[750ms] hover:scale-[1.15]" />        
+      </div>      
 
-      <img src={props.image} alt={props.alt} />
-
-      <div className="flex flex-row justify-between">
+      <h1 className="text-white text-left font-bold text-2xl pt-4 pb-2 uppercase">{props.title}</h1>
+      <div className="flex flex-row">
         {props.languages.map(language => {
           return (
-            <h3 className="text-white">{language}</h3>
+            <p className="pr-5 font-light text-white antialiased">{language}</p>
           )        
         })}
       </div>
 
-      <div className="flex flex-row w-full items-center text-center justify-between">
+      <div className="flex flex-row w-full pt-5 pb-14">
         <LinkTo 
           to={props.url}
-          title="VER PROJETO" 
+          title="VER PROJETO"           
         />
-
+        <span className="px-5"></span>
         <LinkTo 
           to={props.repository}
           title="VER CÓDIGO" 
         />
       </div>
-    </div>
+    </a>
   )
 }

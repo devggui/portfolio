@@ -7,7 +7,7 @@ import { Card } from '../../Card'
 import { LinkTo } from "../../LinkTo";
 
 interface Card {
-  id: string;
+  id: number;
   image: string;
   alt: string
   title: string;
@@ -30,9 +30,9 @@ export function Projects() {
   return (
     <section className="flex flex-col items-center justify-center text-center mb-8"> 
       <div className="flex flex-row w-full items-center text-center justify-between my-8">
-        <h1 className="text-3xl font-bold text-white">Projects</h1>
+        <h1 className="text-3xl font-bold text-white">Projetos</h1>
         <LinkTo 
-          title="CONTACT ME"
+          title="CONTATE-ME"
           to="#contact"
         />
       </div>
