@@ -1,3 +1,92 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --purple: #67159C;
+  
+  /* ### Primary */
+
+  --dark-blue-header-bg: hsl(217, 28%, 15%);
+  --dark-blue-main-bg: hsl(218, 28%, 13%);
+  --dark-blue-footer-bg: hsl(216, 53%, 9%);
+  --dark-blue-testimonials-bg: hsl(219, 30%, 18%);
+
+  --black-op: hsla(0, 0%, 61%, 0.150);
+
+  /* ### Accent */
+
+  --cyan-gradient-from: hsl(176, 68%, 64%);
+  --blue-gradient-to: hsl(198, 60%, 50%);
+  --light-red-error: hsl(0, 100%, 63%);
+}
+
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+input {
+	outline: none;
+	border: none;
+}
+
+textarea {
+  outline: none;
+  border: none;
+}
+
+textarea:focus, input:focus {
+  border-color: transparent !important;  
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; }
+input:focus::-moz-placeholder { color:transparent; }
+input:focus:-ms-input-placeholder { color:transparent; }
+
+textarea:focus::-webkit-input-placeholder { color:transparent; }
+textarea:focus:-moz-placeholder { color:transparent; }
+textarea:focus::-moz-placeholder { color:transparent; }
+textarea:focus:-ms-input-placeholder { color:transparent; }
+
+input::-webkit-input-placeholder { color: #adadad;}
+input:-moz-placeholder { color: #adadad;}
+input::-moz-placeholder { color: #adadad;}
+input:-ms-input-placeholder { color: #adadad;}
+
+textarea::-webkit-input-placeholder { color: #adadad;}
+textarea:-moz-placeholder { color: #adadad;}
+textarea::-moz-placeholder { color: #adadad;}
+textarea:-ms-input-placeholder { color: #adadad;}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;  
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  scale: 1.5;
+  transition: 150ms;
+}

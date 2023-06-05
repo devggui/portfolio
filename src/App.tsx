@@ -3,7 +3,6 @@ import { Main } from './components/Main/Main';
 import { Footer } from './components/Footer/Footer';
 
 import './styles/main.css';
-import './styles/root.css';
 import 'swiper/css';
 
 function App() {  

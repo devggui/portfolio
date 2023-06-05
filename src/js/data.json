@@ -1,27 +1,27 @@
 [
   {
     "id": 1,
-    "image": "/src/assets/results-summary.png",
+    "image": "/src/assets/calculator.png",
     "alt": "Um cartão com fundo representando uma parte do site mencionado",
-    "title": "Results Summary",
-    "url": "https://resultssummarycomponentmain-devggui.netlify.app",
-    "repository": "https://github.com/devggui/results-summary-component-main",
+    "title": "Calculadora (com temas)",
+    "url": "https://calculator-devggui.netlify.com",
+    "repository": "https://github.com/devggui/calculator",
     "languages": ["HTML", "CSS", "JAVASCRIPT"]
   },
   {
     "id": 2,
-    "image": "/src/assets/qr-code.png",
+    "image": "/src/assets/tip-calculator.png",
     "alt": "Um cartão com fundo representando uma parte do site mencionado",
-    "title": "QR Code Component",
-    "url": "https://qrcodecomponent-devggui.netlify.app",
-    "repository": "https://github.com/devggui/qr-code-component",
+    "title": "Calculadora de gorjeta",
+    "url": "https://tipcalculator-devggui.netlify.app",
+    "repository": "https://github.com/devggui/tip-calculator",
     "languages": ["HTML", "CSS", "JAVASCRIPT"]
   },
   {
     "id": 3,
     "image": "/src/assets/interactive-card.png",
     "alt": "Um cartão com fundo representando uma parte do site mencionado",
-    "title": "Interactive Card",
+    "title": "Cartão Interativo",
     "url": "https://interactivecard-devggui.netlify.app",
     "repository": "https://github.com/devggui/interactive-card-details-form-main",
     "languages": ["HTML", "CSS", "JAVASCRIPT"]
@@ -41,16 +41,16 @@
     "alt": "Um cartão com fundo representando uma parte do site mencionado",
     "title": "GitHub - Clone",
     "url": "https://clone-github-devggui.netlify.app",
-    "repository": "https://github.com/devggui/clone-gihub",
+    "repository": "https://github.com/devggui/clone-github",
     "languages": ["HTML", "CSS", "JAVASCRIPT"]
   },
   {
     "id": 6,
-    "image": "/src/assets/time-tracking.png",
+    "image": "/src/assets/age-calculator.png",
     "alt": "Um cartão com fundo representando uma parte do site mencionado",
-    "title": "Time Tracking",
-    "url": "https://time-tracking-devggui.netlify.app",
-    "repository": "https://github.com/devggui/time-trackng-dashboard-main",
+    "title": "Calculadora de idade",
+    "url": "https://agecalculator-devggui.netlify.app",
+    "repository": "https://github.com/devggui/age-calculator-app",
     "languages": ["HTML", "CSS", "JAVASCRIPT"]
   }
 ]
