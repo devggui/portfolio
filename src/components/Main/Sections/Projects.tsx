@@ -5,7 +5,7 @@ import { Pagination, Navigation } from "swiper";
 import axios from 'axios';
 
 import { Card } from '../../Card'
-import { ContactMe } from "../../ContactMe";
+import { ContactMe } from "../../Buttons/ContactMe";
 
 import "swiper/css";
 import "swiper/css/pagination";

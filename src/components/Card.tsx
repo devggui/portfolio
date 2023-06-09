@@ -1,4 +1,4 @@
-import { LinkTo } from "./LinkTo";
+import { LinkTo } from "./Buttons/LinkTo";
 
 interface CardProps {  
   image: string;
