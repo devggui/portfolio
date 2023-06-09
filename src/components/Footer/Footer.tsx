@@ -1,9 +1,9 @@
+import emailjs from 'emailjs-com'
+
 import { Input } from "../Input";
 import { Logo } from "../Logo";
 import { SocialMedia } from "../SocialMedia";
 import { Message } from "../Message";
-
-import emailjs from 'emailjs-com'
 
 export function Footer() {
 

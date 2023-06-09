@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination, Navigation } from "swiper";
 
 import axios from 'axios';
 
@@ -9,8 +10,6 @@ import { ContactMe } from "../../ContactMe";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
-import { Pagination, Navigation } from "swiper";
 
 interface Card {
   id: number;
@@ -27,9 +26,7 @@ export function Projects() {
 
   useEffect(() => {
     axios.get('/src/js/data.json').then(response => { 
-      setCards(response.data)   
-      
-      console.log(response.data)
+      setCards(response.data)         
     })
   }, [])
   
@@ -49,13 +46,14 @@ export function Projects() {
         modules={[Pagination, Navigation]}
         navigation={true}
         className="mySwiper"
-      >
-      {/* <div className="grid w-full sm:grid-cols-2 min-[1600px]:grid-cols-3 gap-x-8"> */}
-        {cards.map(card => {
+      >      
+        {cards.map((card, index) => {
           return (
-            <SwiperSlide>
+            <SwiperSlide
+              key={index}
+            >
               <Card 
-                key={card.id}
+                key={card.id}                
                 image={card.image}
                 alt={card.alt}
                 title={card.title}
@@ -65,8 +63,7 @@ export function Projects() {
               />
             </SwiperSlide>        
           )
-        })}
-      {/* </div> */}
+        })}      
       </Swiper>
     </section>
   )
