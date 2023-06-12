@@ -85,10 +85,28 @@ textarea:-ms-input-placeholder { color: #adadad;}
   object-fit: cover;
 }
 
+.swiper-button-next {
+  visibility: hidden;
+}
+
+.swiper-button-prev {
+  visibility: hidden;
+}
+
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
   scale: 1.5;
-  transition: 150ms;
+  transition: 150ms;  
+}
+
+@media (min-width: 768px) {
+  .swiper-button-next {
+    visibility: visible;
+  }
+  
+  .swiper-button-prev {
+    visibility: visible;
+  }
 }
 
 @keyframes fade-in {

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, Navigation } from "swiper";
+import SwiperCore, { Pagination, Navigation } from "swiper";
 
 import axios from 'axios';
 
@@ -10,6 +10,8 @@ import { ContactMe } from "../../Buttons/ContactMe";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+
+SwiperCore.use([Navigation, Pagination]);
 
 interface Card {
   id: number;
@@ -28,8 +30,8 @@ export function Projects() {
     axios.get('/src/js/data.json').then(response => { 
       setCards(response.data)         
     })
-  }, [])
-  
+  }, [])  
+
   return (
     <section className="flex flex-col items-center justify-center text-center mb-8"> 
       <div className="flex flex-row w-full items-center text-center justify-between my-8">
@@ -39,13 +41,21 @@ export function Projects() {
           to="#contact"
         />
       </div>
-      <Swiper            
-        slidesPerView={2}
-        spaceBetween={30}
+      <Swiper                        
         pagination={{ clickable: true }}
         modules={[Pagination, Navigation]}
         navigation={true}
         className="mySwiper"
+        slidesPerView={1} 
+        spaceBetween={30}
+        breakpoints={{
+          640: {
+            slidesPerView: 2            
+          },
+          1651: {
+            slidesPerView: 3            
+          }
+        }}       
       >      
         {cards.map((card, index) => {
           return (
