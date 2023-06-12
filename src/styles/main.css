@@ -116,3 +116,34 @@ textarea:-ms-input-placeholder { color: #adadad;}
 .animate-fade-out {
   animation: fade-out 0.5s ease-in-out forwards 2s;  
 }
+
+/* Top Button */
+.top-button {
+  background-color: white;
+  border-radius: 100%;
+  padding: 10px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.top-button.show {
+  opacity: 1;
+  visibility: hidden;
+}
+
+@media (min-width: 768px) {
+  .top-button.show{
+    visibility: visible;
+    padding: 5px;
+  }  
+}
+
+@media (min-width: 1024px) {
+  .top-button.show {
+    padding: 10px;
+  }
+}

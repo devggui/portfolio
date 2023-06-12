@@ -30,12 +30,7 @@ function App() {
       <Main />      
       <Footer />
 
-      <button 
-        className=""
-        onClick={ScrollToTop}
-      >
-        <img src="" alt="" />
-      </button>
+      <ToTop />
     </div>
   )
 }
