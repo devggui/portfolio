@@ -63,6 +63,34 @@ textarea:-moz-placeholder { color: #adadad;}
 textarea::-moz-placeholder { color: #adadad;}
 textarea:-ms-input-placeholder { color: #adadad;}
 
+/* Hover buttons */
+.hover-fill {
+  position: relative;
+  /* font-size: 14px; */
+  /* letter-spacing: 1px; */
+  /* text-decoration: none; */
+  /* text-transform: uppercase; */
+  color: white;
+  transition: all 0.3s;
+}
+.hover-fill:hover {
+  color: transparent;
+}
+.hover-fill:hover:after {
+  max-width: 100%;
+}
+.hover-fill:after {
+  content: attr(data-txthover);
+  position: absolute;
+  /* top: 0; */
+  left: 0;
+  max-width: 0;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: max-width 0.3s ease-out;  
+}
+
 .swiper {
   width: 100%;
   height: 100%;

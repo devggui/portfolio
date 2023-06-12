@@ -4,5 +4,5 @@ export interface ContactMe {
 }
 
 export function ContactMe(props: ContactMe) {
-  return <a href={props.to} className="text-white font-semibold border-b-2 border-[var(--cyan-gradient-from)] antialiased">{props.title}</a>
+  return <a href={props.to} className="hover-fill text-white font-semibold pb-1 border-b-2 border-[var(--cyan-gradient-from)] antialiased" data-txthover={props.title}>{props.title}</a>
 }

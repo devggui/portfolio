@@ -84,7 +84,7 @@ export function Footer() {
           </div>
 
           <div className="text-right mb-3">
-            <button type="submit" className="text-white font-semibold mt-8 p-2 border-b-2 border-[var(--cyan-gradient-from)] antialiased">ENVIAR MENSAGEM</button>
+            <button type="submit" className="hover-fill text-white font-semibold mt-8 pb-1 border-b-2 border-[var(--cyan-gradient-from)] antialiased" data-txthover={"ENVIAR MENSAGEM"}>ENVIAR MENSAGEM</button>
           </div>
 
         </form>
