@@ -193,3 +193,26 @@ textarea:-ms-input-placeholder { color: #adadad;}
     padding: 10px;
   }
 }
+
+/* Typing animation */
+.typing-animation {
+  display: inline-block;
+}
+
+.text {
+  display: inline-block;
+  overflow: hidden;
+  animation: typing 3s steps(14) infinite, blink-caret 0.5s step-end infinite;  
+  white-space: nowrap;  
+  border-right: 2px solid #fff; /* Simula o cursor piscando */  
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: #fff; }
+}
