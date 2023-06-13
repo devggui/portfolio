@@ -93,7 +93,7 @@ export function Footer() {
           <Message 
             text="Aguarde..."
             colorText="text-blue-400"
-            src="../../public/icons/loader.svg"
+            src="../../src/assets/icons/loader.svg"
             alt="Mensagem de aguardando."
             width={20}
             height={20}
@@ -104,7 +104,7 @@ export function Footer() {
           <Message 
             text="Enviado!"
             colorText="text-green-400"
-            src="../../public/icons/check-circle.svg"
+            src="../../src/assets/icons/check-circle.svg"
             alt="Mensagem de enviado."
             width={20}
             height={20}
@@ -115,7 +115,7 @@ export function Footer() {
           <Message 
             text="Ainda falta alguma coisa..."
             colorText="text-red-400"
-            src="../../public/icons/alert-circle.svg"
+            src="../../src/assets/icons/alert-circle.svg"
             alt="Mensagem de erro."
             width={20}
             height={20}
