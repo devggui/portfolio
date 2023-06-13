@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/src/assets/calculator.png",
+    "image": "/src/assets/images/calculator.png",
     "alt": "Um cartão com fundo representando uma parte do site mencionado",
     "title": "Calculadora (com temas)",
     "url": "https://calculator-devggui.netlify.com",
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "image": "/src/assets/tip-calculator.png",
+    "image": "/src/assets/images/tip-calculator.png",
     "alt": "Um cartão com fundo representando uma parte do site mencionado",
     "title": "Calculadora de gorjeta",
     "url": "https://tipcalculator-devggui.netlify.app",
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "image": "/src/assets/interactive-card.png",
+    "image": "/src/assets/images/interactive-card.png",
     "alt": "Um cartão com fundo representando uma parte do site mencionado",
     "title": "Cartão Interativo",
     "url": "https://interactivecard-devggui.netlify.app",
@@ -28,7 +28,7 @@
   },
   {
     "id": 4,
-    "image": "/src/assets/eai-lixo.png",
+    "image": "/src/assets/images/eai-lixo.png",
     "alt": "Um cartão com fundo representando uma parte do site mencionado",
     "title": "Eai Lixo",
     "url": "https://eailixo-fatec.netlify.app",
@@ -37,7 +37,7 @@
   },
   {
     "id": 5,
-    "image": "/src/assets/clone-github.png",
+    "image": "/src/assets/images/clone-github.png",
     "alt": "Um cartão com fundo representando uma parte do site mencionado",
     "title": "GitHub - Clone",
     "url": "https://clone-github-devggui.netlify.app",
@@ -46,7 +46,7 @@
   },
   {
     "id": 6,
-    "image": "/src/assets/age-calculator.png",
+    "image": "/src/assets/images/age-calculator.png",
     "alt": "Um cartão com fundo representando uma parte do site mencionado",
     "title": "Calculadora de idade",
     "url": "https://agecalculator-devggui.netlify.app",

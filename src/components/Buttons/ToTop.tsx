@@ -29,7 +29,7 @@ export function ToTop() {
       onClick={scrollToTop}
     >
       <img 
-        src="../../public/icons/arrow-up.svg" 
+        src="/src/assets/icons/arrow-up.svg" 
         alt="Icone de seta para cima" 
         width={40}
         height={40}
