@@ -202,14 +202,23 @@ textarea:-ms-input-placeholder { color: #adadad;}
 .text {
   display: inline-block;
   overflow: hidden;
-  animation: typing 3s steps(14) infinite, blink-caret 0.5s step-end infinite;  
   white-space: nowrap;  
   border-right: 2px solid #fff; /* Simula o cursor piscando */  
+  animation: typing 3s steps(14), blink-caret 0.5s step-end infinite;        
+}
+
+.erase-text {
+  animation: typing-reverse 2s steps(14), blink-caret 0.5s step-end infinite;        ;
 }
 
 @keyframes typing {
   from { width: 0; }
   to { width: 100%; }
+}
+
+@keyframes typing-reverse {
+  from { width: 100%; }
+  to { width: 0; }
 }
 
 @keyframes blink-caret {

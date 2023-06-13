@@ -6,8 +6,8 @@ import { Footer } from './components/Footer/Footer';
 import { ToTop } from "./components/Buttons/ToTop";
 
 import './styles/main.css';
-import 'swiper/css';
 import { useEffect } from "react";
+import 'swiper/css';
 
 function ScrollToTop() {
   const { pathname } = useLocation()
