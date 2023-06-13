@@ -24,7 +24,7 @@ export function Apresentation() {
   return (
     <section className="flex flex-col items-center justify-between text-center sm:flex-row-reverse sm:text-left">      
       <div className= "bg-gradient-to-t from-[var(--black-op)] to-transparent">
-        <img className="w-96" src="../../../src/assets/photo/profile-photo.png" alt="Foto de perfil"/>     
+        <img className="w-96" src="/assets/photo/profile-photo.png" alt="Foto de perfil"/>     
       </div>
       <div className="sm:w-3/5 2xl:max-w-2xl">
         <h1 className="text-white text-2xl font-bold mb-2 mt-7 sm:text-4xl">Oi! Eu sou <span className="border-b-[3px] border-[var(--cyan-gradient-from)]">Guilherme Henrique</span>.</h1>
