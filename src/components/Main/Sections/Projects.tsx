@@ -27,7 +27,7 @@ export function Projects() {
   const [cards, setCards] = useState<Card[]>([]);
 
   useEffect(() => {
-    axios.get('./src/js/data.json').then(response => { 
+    axios.get('/data.json').then(response => { 
       setCards(response.data)         
     })
   }, [])  
