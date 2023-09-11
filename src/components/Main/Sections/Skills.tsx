@@ -5,39 +5,48 @@ export function Skills() {
     <section className="grid items-center justify-center text-center sm:grid-cols-2 lg:grid-cols-3">      
       <Skill 
         image="/icons/html.svg"
-        alt="Logo do HTML."
-        title="HTML"
-        experience="2 Ano(s) de experiência"
+        alt="HTML"
+        title="HTML"        
       />
       <Skill 
         image="/icons/css.svg"
-        alt="Logo do css"
-        title="CSS"
-        experience="2 Ano(s) de experiência"
+        alt="CSS"
+        title="CSS"        
       />      
       <Skill 
         image="/icons/javascript.svg"
-        alt="Logo do javascript"
-        title="Javascript"
-        experience="1 Ano(s) de experiência"
+        alt="JAVASCRIPT"
+        title="Javascript"        
       />      
       <Skill 
         image="/icons/reactjs.svg"
-        alt="Logo do reactjs"
-        title="React.Js"
-        experience="1 Ano(s) de experiência"
+        alt="REACTJS"
+        title="React.Js"        
+      />
+      <Skill 
+        image="/icons/tailwind.svg"
+        alt="TAILWINDCSS"
+        title="Tailwind CSS"        
       />
       <Skill 
         image="/icons/typescript.svg"
-        alt="Logo do typescript"
-        title="Typescript"
-        experience="1 Ano(s) de experiência"
+        alt="TYPESCRIPT"
+        title="Typescript"        
       />  
       <Skill 
-        image="/icons/tailwind.svg"
-        alt="Logo do tailwind"
-        title="Tailwind"
-        experience="1 Ano(s) de experiência"
+        image="/icons/next.svg"
+        alt="NEXTJS"
+        title="Next.js"        
+      />
+      <Skill 
+        image="/icons/oracle.svg"
+        alt="ORACLE PL/SQL"
+        title="Oracle PL/SQL"        
+      />
+      <Skill 
+        image="/icons/express.svg"
+        alt="EXPRESS"
+        title="Express.js"
       />     
     </section>
   )

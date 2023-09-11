@@ -73,12 +73,15 @@ textarea:-ms-input-placeholder { color: #adadad;}
   color: white;
   transition: all 0.3s;
 }
+
 .hover-fill:hover {
   color: transparent;
 }
+
 .hover-fill:hover:after {
   max-width: 100%;
 }
+
 .hover-fill:after {
   content: attr(data-txthover);
   position: absolute;
@@ -113,23 +116,22 @@ textarea:-ms-input-placeholder { color: #adadad;}
   object-fit: cover;
 }
 
-.swiper-button-next {
-  visibility: hidden;
-}
-
+.swiper-button-next,
 .swiper-button-prev {
-  visibility: hidden;
+  visibility: hidden;  
+  padding: 30px;  
+  border-radius: 10px;
 }
 
 .swiper-button-next:hover,
-.swiper-button-prev:hover {
-  scale: 1.5;
-  transition: 150ms;  
+.swiper-button-prev:hover {  
+  transition: 300ms;      
+  background-color: #00458f;  
 }
 
 @media (min-width: 768px) {
   .swiper-button-next {
-    visibility: visible;
+    visibility: visible;    
   }
   
   .swiper-button-prev {

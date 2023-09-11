@@ -24,30 +24,28 @@ interface Card {
 }
 
 export function Projects() {
-  const [cards, setCards] = useState<Card[]>([]);
+  const [cards, setCards] = useState<Card[]>([]);    
 
   useEffect(() => {
     axios.get('/data.json').then(response => { 
       setCards(response.data)         
     })
-  }, [])  
+  }, [])
 
   return (
     <section className="flex flex-col items-center justify-center text-center mb-8"> 
       <div className="flex flex-row w-full items-center text-center justify-between my-8">
         <h1 className="text-3xl font-bold text-white sm:text-5xl">Projetos</h1>
-        <ContactMe 
-          title="CONTATE-ME"
-          to="#contact"
-        />
-      </div>
-      <Swiper                        
+        
+        <ContactMe title="CONTATE-ME" to="#contact" />
+      </div>      
+      <Swiper 
         pagination={{ clickable: true }}
         modules={[Pagination, Navigation]}
         navigation={true}
         className="mySwiper"
         slidesPerView={1} 
-        spaceBetween={30}
+        spaceBetween={30}           
         breakpoints={{
           640: {
             slidesPerView: 2            
@@ -56,12 +54,10 @@ export function Projects() {
             slidesPerView: 3            
           }
         }}       
-      >      
+      >        
         {cards.map((card, index) => {
           return (
-            <SwiperSlide
-              key={index}
-            >
+            <SwiperSlide key={index} >
               <Card 
                 key={card.id}                
                 image={card.image}

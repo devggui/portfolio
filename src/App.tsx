@@ -1,12 +1,10 @@
+import { useEffect } from "react";
 import { HashRouter, useLocation } from "react-router-dom";
-
-import { Header } from './components/Header/Haeder';
+import { Header } from './components/Header/Header';
 import { Main } from './components/Main/Main';
 import { Footer } from './components/Footer/Footer';
 import { ToTop } from "./components/Buttons/ToTop";
-
-import './styles/main.css';
-import { useEffect } from "react";
+import './styles/global.css';
 import 'swiper/css';
 
 function ScrollToTop() {
