@@ -7,7 +7,7 @@
 
 > Meu portifólio pessoal
 
-<div style="width:100%; display:flex; align-items:center; gap:16px; justify-content:center">
+<div style="width:100%; display:flex; align-items:center; gap:16px">
 <img src="./public/preview/desktop-preview.png" width="100%">
 <img src="./public/preview/mobile-preview.png" width="30%">
 </div>
@@ -43,7 +43,7 @@ npm install
 ```
 npm run dev
 ``` 
-5  Ou acesse o aplicativo através do website []() 
+5  Ou acesse o aplicativo através do website [Devggui](https://devggui.netlify.app) 
 
 
 ## 🌐 Links úteis
