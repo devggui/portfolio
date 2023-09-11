@@ -5,9 +5,9 @@
 ![GitHub forks](https://img.shields.io/github/forks/devggui/portfolio)
 
 
-> Meu portifólio pessoal criado do zero usando React
+> Meu portifólio pessoal
 
-<div style="width:100%; display:flex; align-items:center; gap:16px">
+<div style="width:100%; display:flex; align-items:center; gap:16px; justify-content:center">
 <img src="./public/preview/desktop-preview.png" width="100%">
 <img src="./public/preview/mobile-preview.png" width="30%">
 </div>
