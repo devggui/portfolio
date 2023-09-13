@@ -19,12 +19,12 @@
   },
   {
     "id": 3,
-    "image": "/images/interactive-card.png",
-    "alt": "Um cartão com fundo representando uma parte do site mencionado",
-    "title": "Cartão Interativo",
-    "url": "https://interactivecard-devggui.netlify.app",
-    "repository": "https://github.com/devggui/interactive-card-details-form-main",
-    "languages": ["HTML", "CSS", "JAVASCRIPT"]
+    "image": "/images/ean-generator.png",
+    "alt": "Um gerador de código de barras EAN 13",
+    "title": "Gerador de EAN",
+    "url": "https://eangenerate.netlify.app",
+    "repository": "https://github.com/devggui/ean-generator",
+    "languages": ["NEXT JS", "TAILWIND CSS", "TYPESCRIPT"]
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "title": "Eai Lixo",
     "url": "https://eailixo-fatec.netlify.app",
     "repository": "https://github.com/devggui/projeto-fatec-tecnologia-e-ambiente",
-    "languages": ["HTML", "CSS", "JAVASCRIPT"]
+    "languages": ["VUE", "CSS", "JAVASCRIPT"]
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "title": "GitHub - Clone",
     "url": "https://clone-github-devggui.netlify.app",
     "repository": "https://github.com/devggui/clone-github",
-    "languages": ["HTML", "CSS", "JAVASCRIPT"]
+    "languages": ["REACT", "CSS", "JAVASCRIPT"]
   },
   {
     "id": 6,

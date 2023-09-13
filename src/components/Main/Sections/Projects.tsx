@@ -24,7 +24,8 @@ interface Card {
 }
 
 export function Projects() {
-  const [cards, setCards] = useState<Card[]>([]);    
+  const [cards, setCards] = useState<Card[]>([]);      
+  const [data, setData] = useState<Card[]>([]);      
 
   useEffect(() => {
     axios.get('/data.json').then(response => { 
@@ -38,7 +39,8 @@ export function Projects() {
         <h1 className="text-3xl font-bold text-white sm:text-5xl">Projetos</h1>
         
         <ContactMe title="CONTATE-ME" to="#contact" />
-      </div>      
+      </div>            
+
       <Swiper 
         pagination={{ clickable: true }}
         modules={[Pagination, Navigation]}
