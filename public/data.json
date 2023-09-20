@@ -4,6 +4,7 @@
     "image": "/images/calculator.png",
     "alt": "Um cartão com fundo representando uma parte do site mencionado",
     "title": "Calculadora (com temas)",
+    "subtitle": "interativo",
     "url": "https://calculator-devggui.netlify.com",
     "repository": "https://github.com/devggui/calculator",
     "languages": ["HTML", "CSS", "JAVASCRIPT"]
@@ -13,6 +14,7 @@
     "image": "/images/tip-calculator.png",
     "alt": "Um cartão com fundo representando uma parte do site mencionado",
     "title": "Calculadora de gorjeta",
+    "subtitle": "interativo",
     "url": "https://tipcalculator-devggui.netlify.app",
     "repository": "https://github.com/devggui/tip-calculator",
     "languages": ["HTML", "CSS", "JAVASCRIPT"]
@@ -22,6 +24,7 @@
     "image": "/images/ean-generator.png",
     "alt": "Um gerador de código de barras EAN 13",
     "title": "Gerador de EAN",
+    "subtitle": "interativo",
     "url": "https://eangenerate.netlify.app",
     "repository": "https://github.com/devggui/ean-generator",
     "languages": ["NEXT JS", "TAILWIND CSS", "TYPESCRIPT"]
@@ -31,6 +34,7 @@
     "image": "/images/eai-lixo.png",
     "alt": "Um cartão com fundo representando uma parte do site mencionado",
     "title": "Eai Lixo",
+    "subtitle": "landing page",
     "url": "https://eailixo-fatec.netlify.app",
     "repository": "https://github.com/devggui/projeto-fatec-tecnologia-e-ambiente",
     "languages": ["VUE", "CSS", "JAVASCRIPT"]
@@ -40,6 +44,7 @@
     "image": "/images/clone-github.png",
     "alt": "Um cartão com fundo representando uma parte do site mencionado",
     "title": "GitHub - Clone",
+    "subtitle": "interativo",
     "url": "https://clone-github-devggui.netlify.app",
     "repository": "https://github.com/devggui/clone-github",
     "languages": ["REACT", "CSS", "JAVASCRIPT"]
@@ -49,8 +54,29 @@
     "image": "/images/age-calculator.png",
     "alt": "Um cartão com fundo representando uma parte do site mencionado",
     "title": "Calculadora de idade",
+    "subtitle": "interativo",
     "url": "https://agecalculator-devggui.netlify.app",
     "repository": "https://github.com/devggui/age-calculator-app",
     "languages": ["HTML", "CSS", "JAVASCRIPT"]
-  }
+  },
+  {
+    "id": 7,
+    "image": "/images/huddle.jpg",
+    "alt": "Huddle Landing Page",
+    "title": "Huddle",
+    "subtitle": "landing page",
+    "url": "https://huddle-devggui.netlify.app",
+    "repository": "https://github.com/devggui/huddle-landing-page",
+    "languages": ["HTML", "CSS", "JAVASCRIPT"]
+  },
+  {
+    "id": 7,
+    "image": "/images/ping.jpg",
+    "alt": "Ping Coming Soon",
+    "title": "Ping",
+    "subtitle": "landing page",
+    "url": "https://ping-devggui.netlify.app/",
+    "repository": "https://github.com/devggui/ping-coming-soon",
+    "languages": ["HTML", "CSS", "JAVASCRIPT"]
+  } 
 ]

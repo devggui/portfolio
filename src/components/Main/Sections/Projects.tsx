@@ -18,6 +18,7 @@ interface Card {
   image: string;
   alt: string
   title: string;
+  subtitle: string;
   url: string;
   repository: string;
   languages: string[];
@@ -65,6 +66,7 @@ export function Projects() {
                 image={card.image}
                 alt={card.alt}
                 title={card.title}
+                subtitle={card.subtitle}
                 url={card.url}
                 repository={card.repository}
                 languages={card.languages}

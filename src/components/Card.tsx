@@ -4,6 +4,7 @@ interface CardProps {
   image: string;
   alt: string;
   title: string;
+  subtitle: string;
   url: string;
   repository: string;
   languages: string[];
@@ -17,7 +18,10 @@ export function Card(props: CardProps) {
           <img src={props.image} alt={props.alt} className="absolute inset-0 w-full h-full object-cover opacity-60 transition-transform duration-[750ms] hover:scale-[1.15]" />        
         </div>      
 
-        <h1 className="text-white text-left font-bold text-2xl pt-4 pb-2 uppercase">{props.title}</h1>
+        <h1 className="text-white text-left font-bold text-2xl pt-4 pb-2 uppercase">
+          {props.title}
+          <span className="ml-2 text-sm text-muted-foreground italic lowercase font-light antialiased">{props.subtitle}</span>
+        </h1>        
         <div className="flex flex-row">
           {props.languages.map((language, index) => {
             return (
