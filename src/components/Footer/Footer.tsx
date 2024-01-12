@@ -6,7 +6,6 @@ import { SocialMedia } from "../SocialMedia";
 import { Message } from "../Message";
 
 export function Footer() {
-
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {        
     e.preventDefault()
 
@@ -84,7 +83,7 @@ export function Footer() {
           </div>
 
           <div className="text-right mb-3">
-            <button type="submit" className="hover-fill text-white font-semibold mt-8 pb-1 border-b-2 border-[var(--cyan-gradient-from)] antialiased" data-txthover={"ENVIAR MENSAGEM"}>ENVIAR MENSAGEM</button>
+            <button type="submit" className="hover-fill text-white text-2xl font-semibold mt-8 pb-1 border-b-2 border-[var(--cyan-gradient-from)] antialiased" data-txthover={"ENVIAR MENSAGEM"}>ENVIAR MENSAGEM</button>
           </div>
 
         </form>

@@ -1,19 +1,19 @@
 [
   {
     "id": 1,
-    "image": "/images/calculator.png",
-    "alt": "Um cartão com fundo representando uma parte do site mencionado",
-    "title": "Calculadora (com temas)",
+    "image": "/images/ovos-silva.png",
+    "alt": "Aplicativo mobile para android Ovos Silva",
+    "title": "Ovos Silva: Delivery",
     "subtitle": "interativo",
-    "url": "https://calculator-devggui.netlify.com",
-    "repository": "https://github.com/devggui/calculator",
-    "languages": ["HTML", "CSS", "JAVASCRIPT"]
+    "url": "https://play.google.com/store/apps/details?id=com.anonymous.silvaeggs",
+    "repository": "https://wa.me/5514998619263?text=Gostaria de ter acesso ao repositório do aplicativo Ovos Silva: Delivery.",
+    "languages": ["REACT NATIVE", "NODE"]
   },
   {
     "id": 2,
     "image": "/images/tip-calculator.png",
     "alt": "Um cartão com fundo representando uma parte do site mencionado",
-    "title": "Calculadora de gorjeta",
+    "title": "Calc de gorjeta",
     "subtitle": "interativo",
     "url": "https://tipcalculator-devggui.netlify.app",
     "repository": "https://github.com/devggui/tip-calculator",
@@ -78,5 +78,15 @@
     "url": "https://ping-devggui.netlify.app/",
     "repository": "https://github.com/devggui/ping-coming-soon",
     "languages": ["HTML", "CSS", "JAVASCRIPT"]
-  } 
+  },
+  {
+    "id": 8,
+    "image": "/images/calculator.png",
+    "alt": "Um cartão com fundo representando uma parte do site mencionado",
+    "title": "Calculadora (com temas)",
+    "subtitle": "interativo",
+    "url": "https://calculator-devggui.netlify.com",
+    "repository": "https://github.com/devggui/calculator",
+    "languages": ["HTML", "CSS", "JAVASCRIPT"]
+  }
 ]

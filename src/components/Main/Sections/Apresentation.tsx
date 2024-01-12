@@ -1,4 +1,5 @@
 import { ContactMe } from "../../Buttons/ContactMe";
+import { DownloadCV } from "../../Buttons/DowloadCV";
 
 export function Apresentation() {    
   const text = ['Fullstack Developer!']    
@@ -13,9 +14,13 @@ export function Apresentation() {
           <span className="text text-[var(--cyan-gradient-from)] text-2xl font-bold sm:text-4xl" id="typingText">{text}</span>
         </div>                        
 
-        <p className="text-center text-white text-xl font-light mt-5 mb-5 pb-2 antialiased sm:text-left">Sou um estudante e profissional apaixonado por tecnologia. Atualmente estudando e aperfeiçoando meus conhecimentos em Front-end, mas com o objetivo no desenvolvimento Fullstack.</p>
+        <p className="text-center text-white text-xl font-light mt-5 mb-5 pb-2 antialiased sm:text-left">Sou um profissional apaixonado por tecnologia e pela area de desenvolvimento. Atualmente focado no desenvolvimento de aplicações web e mobile de ponta a ponta como desenvolvedor Fullstack.</p>
         
-        <ContactMe title="CONTATE-ME" to="#contact" />        
+        <div className="flex flex-col space-y-8 sm:space-y-0 sm:flex-row items-center justify-between w-full">
+          <ContactMe title="CONTATE-ME" to="#contact" />        
+          
+          <DownloadCV />
+        </div>
       </div>    
     </section>
   )
